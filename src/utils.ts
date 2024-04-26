@@ -1,0 +1,18 @@
+export const progressPointBarClasses = {
+  root: "ProgressPointBar-root",
+  labelBar: "ProgressPointBar-labelBar",
+  labelProgress: "ProgressPointBar-labelProgress",
+  labelGroup: "ProgressPointBar-labelGroup",
+  label: "ProgressPointBar-label",
+  badge: "ProgressPointBar-badge",
+  badgeSuccess: "ProgressPointBar-badgeSuccess",
+  badgeDanger: "ProgressPointBar-badgeDanger",
+  badgeWarning: "ProgressPointBar-badgeWarning",
+  badgeInfo: "ProgressPointBar-badgeInfo",
+  container: "ProgressPointBar-container",
+  progress: "ProgressPointBar-progress",
+  progressSuccess: "ProgressPointBar-progressSuccess",
+  progressDanger: "ProgressPointBar-progressDanger",
+  progressInfo: "ProgressPointBar-progressSuccess",
+  progressWarning: "ProgressPointBar-progressWarning",
+};

@@ -1,0 +1,97 @@
+.ProgressPointBar-root {
+  width: 100%;
+  transition: all ease-in-out 0.2s;
+}
+
+.ProgressPointBar-labelBar {
+  display: flex;
+  width: 100%;
+}
+
+.ProgressPointBar-labelProgress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  flex-grow: 0;
+  gap: 4px;
+}
+
+.ProgressPointBar-label {
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ProgressPointBar-labelGroup {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+
+.ProgressPointBar-badge {
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 14px;
+  line-height: 24px;
+}
+
+.ProgressPointBar-badgeSuccess {
+  background-color: rgb(240 253 244);
+  color: rgb(22 163 74);
+}
+
+.ProgressPointBar-badgeDanger {
+  background-color: rgb(254 242 242);
+  color: rgb(220 38 38);
+}
+
+
+.ProgressPointBar-badgeWarning {
+  background-color: rgb(255, 247, 237);
+  color: rgb(249, 115, 22);
+}
+
+.ProgressPointBar-badgeInfo {
+  background-color: rgb(246, 249, 255);
+  color: rgb(44, 149, 255);
+}
+
+.ProgressPointBar-container {
+  background-color: rgb(231, 231, 232);
+  height: 4px;
+  border-radius: 2px;
+  transition: all ease-in-out 0.2s;
+  margin-top: 8px;
+  position: relative;
+}
+
+.ProgressPointBar-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+  transition: all ease-in-out 0.2s;
+}
+
+.ProgressPointBar-progressSuccess {
+  background-color: rgb(22, 163, 74);
+}
+
+.ProgressPointBar-progressDanger {
+  background-color: rgb(248, 113, 113);
+}
+
+.ProgressPointBar-progressWarning {
+  background-color: rgb(251, 146, 60);
+}
+
+.ProgressPointBar-progressInfo {
+  background-color: rgb(44, 149, 255);
+}
